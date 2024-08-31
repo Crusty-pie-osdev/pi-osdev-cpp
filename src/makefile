@@ -1,7 +1,7 @@
 CPPFILES = $(wildcard *.cpp io/*.cpp)
 OBJS = $(CPPFILES:.cpp=.o)
 GPPFLAGS = -Wall -O2 -ffreestanding -nostdinc -nostdlib -nostartfiles
-GCCPATH =  ~/Programs/gcc-arm-10.3-2021.07-x86_64-aarch64-none-elf/bin
+GCCPATH =  ~/Programs/arm-gnu-toolchain-13.3.rel1-x86_64-aarch64-none-elf/bin# Update this path to your GCC path
 
 all: clean kernel8.img
 
@@ -17,7 +17,3 @@ kernel8.img: boot.o $(OBJS)
 
 clean:
 	/bin/rm kernel8.elf *.o *.img > /dev/null 2> /dev/null || true
-
-
-	
-
