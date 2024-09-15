@@ -5,3 +5,4 @@ On Ubuntu: make sure that you have the right rights on /dev/ttyUSB0, change baud
 
 - Double check wiring (Not connected to +5V/3.3V)
 - With current Kernel the rpi sends out a single message after booting (takes a few seconds), reboot when checking connection
+- $ sudo chown pmasselot /dev/ttyUSB0
