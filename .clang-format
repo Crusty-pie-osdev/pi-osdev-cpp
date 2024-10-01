@@ -1,0 +1,16 @@
+# Slapped together in 10 seconds, TODO: make this decent
+Language: Cpp
+BasedOnStyle: LLVM
+AccessModifierOffset: -4
+AlignAfterOpenBracket: AlwaysBreak
+AlignConsecutiveAssignments: true
+AlignConsecutiveDeclarations: true
+AlwaysBreakTemplateDeclarations: Yes
+IndentPPDirectives: AfterHash
+IndentWidth: 4
+KeepEmptyLinesAtTheStartOfBlocks: false
+PointerAlignment: Left
+SpacesInContainerLiterals: false
+FixNamespaceComments: true
+TabWidth: 4
+ColumnLimit: 100

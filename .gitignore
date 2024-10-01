@@ -3,3 +3,6 @@
 *.o
 *.elf
 *.img
+
+# vscode stuff
+.vscode
